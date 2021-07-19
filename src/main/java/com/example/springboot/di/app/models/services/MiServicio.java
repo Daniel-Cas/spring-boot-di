@@ -5,13 +5,14 @@ import org.springframework.stereotype.Service;
 
 // Este es un componente que se distribuye en nuestra aplicación
 //@Service
-@Component("miServicioSimple")
+//@Primary
+//@Component("miServicioSimple")
 public class MiServicio implements IServicio {
 
     @Override
     public String operacion() {
 
-        return "Ejecutando algun proceso importante...";
+        return "Ejecutando algun proceso importante Simple...";
     }
 
 }
